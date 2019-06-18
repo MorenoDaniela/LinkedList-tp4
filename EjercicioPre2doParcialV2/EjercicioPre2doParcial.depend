@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1560896376 source:d:\mis documentos\moreno\linkedlist-tp4-master\tp4 v6\src\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/LinkedList.h"
+
+1560896376 d:\mis documentos\moreno\linkedlist-tp4-master\tp4 v6\inc\linkedlist.h
+
+1560899137 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\empleado.c
+	"Empleado.h"
+	"validaciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1560899157 d:\mis documentos\moreno\ejerciciopre2doparcialv2\empleado.h
+
+1560897751 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1560897680 d:\mis documentos\moreno\ejerciciopre2doparcialv2\arraylist.h
+
+1560899236 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Parser.h"
+	"Empleado.h"
+
+1560899424 d:\mis documentos\moreno\ejerciciopre2doparcialv2\parser.h
+	"Arraylist.h"
+
+1560898444 d:\mis documentos\moreno\ejerciciopre2doparcialv2\validaciones.h
+
+1560898425 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1560899392 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"Arraylist.h"
+	"Parser.h"
+
+1560898425 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
