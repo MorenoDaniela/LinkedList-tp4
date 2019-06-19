@@ -28,7 +28,7 @@ int main()
 {
     // Definir lista de empleados
     Arraylist* listaEmpleados =  ll_newArraylist();
-
+    Arraylist* listaNueva = ll_newArraylist();
 
     // Crear lista empledos
     //...
@@ -56,8 +56,8 @@ int main()
 
         controller_loadFromText("sueldos.csv",listaEmpleados);
         //ll_map(listaEmpleados,sacarMayores);
-        ll_filter(listaEmpleados,sacarMayores);
-        generarArchivoSueldos("sinMayores.csv",listaEmpleados);
+        listaNueva = ll_filter(listaEmpleados,sacarMayores);
+        generarArchivoSueldos("sinMayores.csv",listaNueva);
 
 
     return 0;

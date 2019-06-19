@@ -7,16 +7,16 @@
 
 1560896376 d:\mis documentos\moreno\linkedlist-tp4-master\tp4 v6\inc\linkedlist.h
 
-1560905558 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\empleado.c
+1560906703 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\empleado.c
 	"Empleado.h"
 	"validaciones.h"
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
 
-1560905568 d:\mis documentos\moreno\ejerciciopre2doparcialv2\empleado.h
+1560906719 d:\mis documentos\moreno\ejerciciopre2doparcialv2\empleado.h
 
-1560905302 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\arraylist.c
+1560906517 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\arraylist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -24,7 +24,7 @@
 
 1560903779 d:\mis documentos\moreno\ejerciciopre2doparcialv2\arraylist.h
 
-1560903995 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\parser.c
+1560906649 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
@@ -42,7 +42,7 @@
 	<stdlib.h>
 	<string.h>
 
-1560905461 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\main.c
+1560906195 source:d:\mis documentos\moreno\ejerciciopre2doparcialv2\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Empleado.h"

@@ -10,7 +10,7 @@ int parser_parseEmpleados(FILE* fileName, Arraylist* listaEmpleados)
     char auxNombre[500];
     char auxId[500];
     char auxHoras[500];
-    //char auxSueldo[500];
+    char auxSueldo[500];
     int flag=0;
 
     Empleado* pAuxEmployee;
@@ -19,14 +19,14 @@ int parser_parseEmpleados(FILE* fileName, Arraylist* listaEmpleados)
     {
         while (!feof(fileName))
         {
-            fscanf(fileName,"%[^,],%[^,],%[^\n]\n",auxId,auxNombre,auxHoras);
+            fscanf(fileName,"%[^,],%[^,],%[^,],%[^\n]\n",auxId,auxNombre,auxHoras,auxSueldo);
 
             if (flag==0)
             {
                 flag++;
                 continue;
             }
-            pAuxEmployee = Empleado_newParametros(auxId,auxNombre,auxHoras);
+            pAuxEmployee = Empleado_newParametros(auxId,auxNombre,auxHoras,auxSueldo);
             //printf ("ID %s NOMBRE: %s HORAS: %s\n",auxId,auxNombre,auxHoras);
             if (pAuxEmployee !=NULL)
             {

@@ -12,7 +12,7 @@ typedef struct S_Empleado Empleado;
 
 Empleado* Empleado_new();
 //Empleado* Empleado_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr, char* sueldo);
-Empleado* Empleado_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr);
+Empleado* Empleado_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr, char* sueldo);
 Empleado* Empleado_newBinario(Empleado empleado);
 
 int Empleado_delete(Empleado* this);
@@ -42,5 +42,6 @@ int Empleado_compararNombre(void* this1, void* this2);
 
 
 void em_calcularSueldo(void* p);
-void sacarMayores(void*p);//que el sueldo sea mayor a 20000
+int sacarMayores(void*p);//que el sueldo sea mayor a 20000
+int retornoSiempreUno (void*p);
 #endif // EMPLEADO_H_INCLUDED

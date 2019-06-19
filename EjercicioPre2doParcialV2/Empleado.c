@@ -26,7 +26,7 @@ Empleado* Empleado_new()
  *
  */
 
- Empleado* Empleado_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr)
+ Empleado* Empleado_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr, char* sueldo)
 {
     Empleado* retorno=NULL;
     Empleado* pAuxEmpleado;
@@ -38,7 +38,8 @@ Empleado* Empleado_new()
         {
             if (!Empleado_setIdString(pAuxEmpleado,idStr) &&
                 !Empleado_setNombre(pAuxEmpleado,nombreStr) &&
-                !Empleado_setHorasTrabajadasString(pAuxEmpleado,horasTrabajadasStr))
+                !Empleado_setHorasTrabajadasString(pAuxEmpleado,horasTrabajadasStr)&&
+                !Empleado_setSueldoString(pAuxEmpleado,sueldo))
                 {
                     retorno=pAuxEmpleado;
                 }else
@@ -458,20 +459,25 @@ void em_calcularSueldo(void* p)
     }
 }
 
-void sacarMayores(void*p)//que el sueldo sea mayor a 20000
+int sacarMayores(void*p)//que el sueldo sea mayor a 20000
 {
-    //int retorno=0;
+    int retorno=0;
     int auxSueldo;
 
     if (p!=NULL)
     {
         Empleado_getSueldo(p,&auxSueldo);
-        if (auxSueldo<20000)
+        if (auxSueldo>20000)
         {
             //printf ("Sueldo: ",auxSueldo);
-            //retorno=1;
+            retorno=1;
         }
     }
 
-    //return retorno;
+    return retorno;
+}
+
+int retornoSiempreUno (void*p)
+{
+    return 1;
 }

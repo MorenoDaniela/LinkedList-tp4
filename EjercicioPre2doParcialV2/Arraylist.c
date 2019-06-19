@@ -641,9 +641,8 @@ Arraylist* ll_filter(Arraylist* this, int (*pFunc) (void*))
         for (i=0;i<ll_len(this);i++)
         {
             element=ll_get(this,i);
-            if (pFunc(element)==1)
+            if (pFunc(element))
             {
-
                ll_add(cloneArray,element);
             }
         }
