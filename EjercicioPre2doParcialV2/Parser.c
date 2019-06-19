@@ -6,7 +6,7 @@
 
 int parser_parseEmpleados(FILE* fileName, Arraylist* listaEmpleados)
 {
-    int retorno=0;
+    int retorno=-1;
     char auxNombre[500];
     char auxId[500];
     char auxHoras[500];
@@ -27,10 +27,12 @@ int parser_parseEmpleados(FILE* fileName, Arraylist* listaEmpleados)
                 continue;
             }
             pAuxEmployee = Empleado_newParametros(auxId,auxNombre,auxHoras);
+            //printf ("ID %s NOMBRE: %s HORAS: %s\n",auxId,auxNombre,auxHoras);
             if (pAuxEmployee !=NULL)
             {
                 ll_add(listaEmpleados,pAuxEmployee);
-                retorno=1;
+
+                retorno=0;
             }
         }
         fclose(fileName);

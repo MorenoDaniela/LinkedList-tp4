@@ -42,5 +42,5 @@ int Empleado_compararNombre(void* this1, void* this2);
 
 
 void em_calcularSueldo(void* p);
-
+void sacarMayores(void*p);//que el sueldo sea mayor a 20000
 #endif // EMPLEADO_H_INCLUDED

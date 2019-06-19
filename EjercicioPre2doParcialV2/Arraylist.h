@@ -37,6 +37,6 @@ int ll_sort(Arraylist* this, int (*pFunc)(void* ,void*), int order);
 
 Arraylist* ll_reduce(Arraylist* this, int (*pFunc) (void*));
 Arraylist* ll_filter(Arraylist* this, int (*pFunc) (void*));
-int ll_map(Arraylist* this, int (*pFunc)(void*));
+int ll_map(Arraylist* this, void (*pFunc)(void*));
 
 #endif // ARRAYLIST_H_INCLUDED

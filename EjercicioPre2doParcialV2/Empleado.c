@@ -427,29 +427,51 @@ int Empleado_compararNombre(void* this1, void* this2)
 
 void em_calcularSueldo(void* p)
 {
+    int horas;
     int auxSueldo=0;
     int total=0;
-    int totalMedio=0;
+    //int totalMedio=0;
 
-    if (p!=NULL && isValidNumber(p))
+    if (p!=NULL)
     {
-        if ((int)p<=120)
+        Empleado_getHorasTrabajadas(p,&horas);
+        if (horas<=120)
         {
-            auxSueldo=(int)p*180;
+            auxSueldo=horas*180;
             total=auxSueldo;
         }
 
-        if ((int)p>120 && (int)p<160)
+        if (horas>120 && horas<160)
         {
-            auxSueldo=(int)p*180;
-            total=auxSueldo+((int)p-120)*240;
+            auxSueldo=120*180;
+            total=auxSueldo+(horas-120)*240;
         }
 
         if ((int)p>=160)
         {
-            auxSueldo=(int)p*180;
-            totalMedio=auxSueldo+((int)p-120)*240;
-            total=totalMedio+((int)p-160)*350;
+            auxSueldo=(120*180)+(40 * 240);
+            //totalMedio=auxSueldo+(horas-120)*240;
+            total=auxSueldo+(horas-160)*350;
+        }
+
+        Empleado_setSueldo(p,total);
+    }
+}
+
+void sacarMayores(void*p)//que el sueldo sea mayor a 20000
+{
+    //int retorno=0;
+    int auxSueldo;
+
+    if (p!=NULL)
+    {
+        Empleado_getSueldo(p,&auxSueldo);
+        if (auxSueldo<20000)
+        {
+            //printf ("Sueldo: ",auxSueldo);
+            //retorno=1;
         }
     }
+
+    //return retorno;
 }

@@ -603,7 +603,7 @@ int ll_sort(Arraylist* this, int (*pFunc)(void* ,void*), int order)
 //POR EJEMPLO UNA FUNCION QUE AUMENTE EL SUELDO RECIBA UN EMPLEADO Y LE AUMENTE EL SUELDO
 //LLAMAR A MAP UNA VEZ POR CADA UNO DE LOS EMPLEADOS.
 
-int ll_map(Arraylist* this, int (*pFunc)(void*))
+int ll_map(Arraylist* this, void (*pFunc)(void*))
 {
     int returnAux=-1;
     int i;
@@ -638,11 +638,12 @@ Arraylist* ll_filter(Arraylist* this, int (*pFunc) (void*))
     if (this!=NULL && pFunc!=NULL)
     {
         cloneArray=ll_newArraylist();
-        for (i=0;ll_len(this);i++)
+        for (i=0;i<ll_len(this);i++)
         {
             element=ll_get(this,i);
             if (pFunc(element)==1)
             {
+
                ll_add(cloneArray,element);
             }
         }
@@ -667,6 +668,7 @@ Arraylist* ll_reduce(Arraylist* this, int (*pFunc) (void*))
             if (pFunc(element)==1)
             {
                 ll_remove(this,i);//se puede usar ll_pop
+                i--;
             }
         }
     }
