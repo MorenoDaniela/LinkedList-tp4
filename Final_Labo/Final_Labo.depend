@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1561445345 source:c:\users\pc\desktop\workspace\final_labo\client.c
+	"Client.h"
+	"validaciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1561445345 c:\users\pc\desktop\workspace\final_labo\client.h
+
+1560403053 c:\users\pc\desktop\workspace\final_labo\validaciones.h
+
+1560398578 source:c:\users\pc\desktop\workspace\final_labo\funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1560920327 source:c:\users\pc\desktop\workspace\final_labo\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1533133022 c:\users\pc\desktop\workspace\final_labo\linkedlist.h
+
+1561444825 source:c:\users\pc\desktop\workspace\final_labo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Client.h"
+	"funciones.h"
+
+1561442792 c:\users\pc\desktop\workspace\final_labo\controller.h
+
+1559804656 c:\users\pc\desktop\workspace\final_labo\funciones.h
+
+1561443254 source:c:\users\pc\desktop\workspace\final_labo\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Client.h"
+
+1560403053 source:c:\users\pc\desktop\workspace\final_labo\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1561444825 source:c:\users\pc\desktop\workspace\final_labo\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Client.h"
+	"parser.h"
+	"funciones.h"
+	"Controller.h"
+
+1561438632 c:\users\pc\desktop\workspace\final_labo\parser.h
+
