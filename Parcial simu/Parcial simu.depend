@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1561499127 source:d:\moreno\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561499461 d:\moreno\linkedlist.h
+
+1561501441 source:d:\moreno\parcial simu\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Entregas.h"
+	"parser.h"
+	"funciones.h"
+	"controller.h"
+
+1561499461 d:\moreno\parcial simu\linkedlist.h
+
+1561501560 d:\moreno\parcial simu\entregas.h
+
+1561501750 d:\moreno\parcial simu\parser.h
+
+1561500697 d:\moreno\parcial simu\funciones.h
+
+1561501679 d:\moreno\parcial simu\controller.h
+
+1561501708 source:d:\moreno\parcial simu\entregas.c
+	"Entregas.h"
+	"validaciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1561500697 d:\moreno\parcial simu\validaciones.h
+
+1561500697 source:d:\moreno\parcial simu\funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561501441 source:d:\moreno\parcial simu\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Entregas.h"
+
+1561500697 source:d:\moreno\parcial simu\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1561501787 source:d:\moreno\parcial simu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"Entregas.h"
+	"funciones.h"
+
