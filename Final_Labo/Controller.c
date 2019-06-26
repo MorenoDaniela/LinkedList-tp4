@@ -618,7 +618,7 @@ int controller_saveAsTextVentas(char* path , LinkedList* pArrayListVenta)
                     !venta_getCantidad(pVenta,&cantidad) &&
                     !venta_getPrecio(pVenta,&precio))
                     {
-                        fprintf(pFile,"%d,%d,%d,%d, %f\n",id,idCliente,codigo,cantidad,precio);
+                        fprintf(pFile,"%d,%d,%d,%d, %.2f\n",id,idCliente,codigo,cantidad,precio);
                     }else
                         venta_delete(pVenta);
             }

@@ -8,7 +8,7 @@
 int main()
 {
     int option = 0;
-    int flag=0;
+    //int flag=0;
     LinkedList* listaClientes = ll_newLinkedList();
     LinkedList* listaVentas = ll_newLinkedList();
 
@@ -17,7 +17,7 @@ int main()
 
     do{
         getInt("1. Alta de cliente.\n2. Modificacion de cliente.\n"
-                "3. Baja de cliente.\n4. Listar clientes.\n5. Realizar una venta.\n6. Anular venta.\n7. Informas ventas.\n"
+                "3. Baja de cliente.\n4. Listar clientes.\n5. Realizar una venta.\n6. Anular venta.\n7. Informar ventas.\n"
                 "8. Informar ventas por producto.\n9. Generar informe de ventas.\n"
                 "11. Informar cantidad de ventas por cliente.\n12. Salir.\n","\nError, opcion incorrecta.\n",1,12,3,&option);
         system("cls");

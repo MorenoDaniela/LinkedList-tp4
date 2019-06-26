@@ -30,39 +30,6 @@ int venta_delete(Venta* this);
 int client_setId(Client* this,int id);
 int client_getId(Client* this,int* id);
 
-int venta_setIdCliente(Venta* this,int id);//
-int venta_getIdCliente(Venta* this,int* id);//
-
-int venta_setIdVenta(Venta* this,int id);//
-int venta_getIdVenta(Venta* this,int* id);//
-
-int venta_setIdClienteString(Venta* this, char* idCliente);//
-int venta_getIdClienteString(Venta* this, char* idCliente);//
-
-int venta_setIdVentaString(Venta* this, char* idVenta);//
-int venta_getIdVentaString(Venta* this, char* idVenta);//
-
-int venta_setCodigo(Venta* this,int codigo);//
-int venta_getCodigo(Venta* this,int* codigo);//
-
-int venta_setCodigoString(Venta* this, char* codigo);//
-int venta_getCodigoString(Venta* this, char* codigoProducto);//
-
-float venta_setPrecio(Venta* this,float precio);//
-float venta_getPrecio(Venta* this,float* precio);//
-
-float venta_setPrecioString(Venta* this, char* precio);//
-float venta_getPrecioString(Venta* this, char* precio);//
-
-int venta_setCantidad(Venta* this,int cantidad);//
-int venta_getCantidad(Venta* this,int* cantidad);//
-
-int venta_setCantidadString(Venta* this, char* cantidad);//
-int venta_getCantidadString(Venta* this, char* cantidad);//
-
-int client_setNombre(Client* this,char* nombre);
-int client_getNombre(Client* this,char* nombre);
-
 int client_setHorasTrabajadas(Client* this,int horasTrabajadas);
 int client_getHorasTrabajadas(Client* this,int* horasTrabajadas);
 
@@ -86,6 +53,41 @@ int client_setDni(Client* this,int dni);
 
 int client_setApellido(Client* this,char* apellido);
 int client_getApellido(Client* this,char* apellido);
+
+int client_setNombre(Client* this,char* nombre);
+int client_getNombre(Client* this,char* nombre);
+
+int venta_setIdCliente(Venta* this,int id);//
+int venta_getIdCliente(Venta* this,int* id);//
+
+int venta_setIdVenta(Venta* this,int id);//
+int venta_getIdVenta(Venta* this,int* id);//
+
+int venta_setIdClienteString(Venta* this, char* idCliente);//
+int venta_getIdClienteString(Venta* this, char* idCliente);//
+
+int venta_setIdVentaString(Venta* this, char* idVenta);//
+int venta_getIdVentaString(Venta* this, char* idVenta);//
+
+int venta_setCodigo(Venta* this,int codigo);//
+int venta_getCodigo(Venta* this,int* codigo);//
+
+int venta_setCodigoString(Venta* this, char* codigo);//
+int venta_getCodigoString(Venta* this, char* codigoProducto);//
+
+int venta_setPrecio(Venta* this,float precio);//
+int venta_getPrecio(Venta* this,float* precio);//
+
+int venta_setPrecioString(Venta* this, char* precio);//
+int venta_getPrecioString(Venta* this, char* precio);//
+
+int venta_setCantidad(Venta* this,int cantidad);//
+int venta_getCantidad(Venta* this,int* cantidad);//
+
+int venta_setCantidadString(Venta* this, char* cantidad);//
+int venta_getCantidadString(Venta* this, char* cantidad);//
+
+
 
 int client_compararNombre(void* this1, void* this2);
 #endif // client_H_INCLUDED

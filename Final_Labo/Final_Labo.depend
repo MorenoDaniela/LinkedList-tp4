@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1561445345 source:c:\users\pc\desktop\workspace\final_labo\client.c
+1561571303 source:c:\users\pc\desktop\workspace\final_labo\client.c
 	"Client.h"
 	"validaciones.h"
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
 
-1561445345 c:\users\pc\desktop\workspace\final_labo\client.h
+1561571322 c:\users\pc\desktop\workspace\final_labo\client.h
 
-1560403053 c:\users\pc\desktop\workspace\final_labo\validaciones.h
+1561570748 c:\users\pc\desktop\workspace\final_labo\validaciones.h
 
 1560398578 source:c:\users\pc\desktop\workspace\final_labo\funciones.c
 	"validaciones.h"
@@ -24,7 +24,7 @@
 
 1533133022 c:\users\pc\desktop\workspace\final_labo\linkedlist.h
 
-1561444825 source:c:\users\pc\desktop\workspace\final_labo\main.c
+1561447411 source:c:\users\pc\desktop\workspace\final_labo\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -32,23 +32,23 @@
 	"Client.h"
 	"funciones.h"
 
-1561442792 c:\users\pc\desktop\workspace\final_labo\controller.h
+1561446922 c:\users\pc\desktop\workspace\final_labo\controller.h
 
 1559804656 c:\users\pc\desktop\workspace\final_labo\funciones.h
 
-1561443254 source:c:\users\pc\desktop\workspace\final_labo\parser.c
+1561446346 source:c:\users\pc\desktop\workspace\final_labo\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Client.h"
 
-1560403053 source:c:\users\pc\desktop\workspace\final_labo\validaciones.c
+1561569731 source:c:\users\pc\desktop\workspace\final_labo\validaciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"validaciones.h"
 
-1561444825 source:c:\users\pc\desktop\workspace\final_labo\controller.c
+1561570024 source:c:\users\pc\desktop\workspace\final_labo\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"

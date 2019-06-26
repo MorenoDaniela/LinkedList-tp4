@@ -10,6 +10,7 @@ int isValidDni(char* cadena);//aca dni
 int isValidFecha(char *cadena);
 //int isDni (char* pString);
 int isNumber(char* pString);
+int isValidFloatNumber(char* stringRecibido);
 int isValidNumber(char* stringRecibido);
 int isCuit (char* pString);
 int isTelefono (char* pString);

@@ -108,6 +108,21 @@ int isNumber (char* pString)
     return TRUE;
 }
 
+int isValidFloatNumber(char* stringRecibido)
+{
+    int retorno=1;
+    int i;
+    for(i=0;stringRecibido[i]!='\0';i++)
+    {
+        if((stringRecibido[i]<'0' || stringRecibido[i]>'9') && (stringRecibido[i]!='.'))
+        {
+            retorno=0;
+            break;
+        }
+    }
+    return retorno;
+}
+
 int isValidNumber(char* stringRecibido)
 {
     int retorno=1;

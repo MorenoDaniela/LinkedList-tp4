@@ -526,9 +526,9 @@ int venta_getCodigoString(Venta* this, char* codigoProducto)//
     return retorno;
 }
 
-float venta_setPrecio(Venta* this,float precio)//
+int venta_setPrecio(Venta* this,float precio)//
 {
-    float retorno=-1;
+    int retorno=-1;
     //printf("HEY\n");
     if (this!=NULL && precio>=0 && isValidFloat(precio,1,MAX_PRECIO))
     {
@@ -538,9 +538,9 @@ float venta_setPrecio(Venta* this,float precio)//
     return retorno;
 }
 
-float venta_getPrecio(Venta* this, float* precio)//
+int venta_getPrecio(Venta* this, float* precio)//
 {
-    float retorno=-1;
+    int retorno=-1;
 
     if (this!=NULL && precio!=NULL)
     {
@@ -550,29 +550,30 @@ float venta_getPrecio(Venta* this, float* precio)//
     return retorno;
 }
 
-float venta_setPrecioString(Venta* this, char* precio)//
+int venta_setPrecioString(Venta* this, char* precio)//
 {
-    float retorno = -1;
+    int retorno = -1;
     if(this != NULL && precio!=NULL)
     {
-        if (isValidNumber(precio))
+        printf ("Precio: %s \n",precio);
+        if (isValidFloatNumber(precio))
         {
+            //printf ("Precio: %s",precio);
             retorno = venta_setPrecio(this,atof(precio));
-            //printf("RETORNO:%d \n",retorno);
         }
     }
     return retorno;
 }
 
-float venta_getPrecioString(Venta* this, char* precio)//
+int venta_getPrecioString(Venta* this, char* precio)//
 {
-    float retorno = -1;
+    int retorno = -1;
     float buffer;
 
     if(this != NULL && precio != NULL)
     {
         venta_getPrecio(this,&buffer);
-        sprintf(precio,"%.2f",buffer);
+        sprintf(precio,"%f",buffer);
         //printf("PRECIO: %f",buffer);
         retorno = 0;
     }
