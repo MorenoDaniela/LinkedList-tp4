@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1561506198 source:d:\danieladaniela\danielamoreno\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Entregas.h"
+	"parser.h"
+	"funciones.h"
+	"controller.h"
+
+1561502737 d:\danieladaniela\danielamoreno\linkedlist.h
+
+1561509251 d:\danieladaniela\danielamoreno\entregas.h
+
+1561502641 d:\danieladaniela\danielamoreno\parser.h
+
+1561502641 d:\danieladaniela\danielamoreno\funciones.h
+
+1561502641 d:\danieladaniela\danielamoreno\controller.h
+
+1561506507 source:d:\danieladaniela\danielamoreno\entregas.c
+	"Entregas.h"
+	"validaciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1561502641 d:\danieladaniela\danielamoreno\validaciones.h
+
+1561502641 source:d:\danieladaniela\danielamoreno\funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561502641 source:d:\danieladaniela\danielamoreno\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561505648 source:d:\danieladaniela\danielamoreno\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"Entregas.h"
+	"funciones.h"
+
+1561505625 source:d:\danieladaniela\danielamoreno\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Entregas.h"
+
+1561506491 source:d:\danieladaniela\danielamoreno\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1561568858 source:c:\users\pc\desktop\workspace\danielamoreno\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entregas.h"
+	"parser.h"
+	"funciones.h"
+	"controller.h"
+
+1561526454 c:\users\pc\desktop\workspace\danielamoreno\linkedlist.h
+
+1561526453 c:\users\pc\desktop\workspace\danielamoreno\entregas.h
+
+1561510255 c:\users\pc\desktop\workspace\danielamoreno\parser.h
+
+1561510255 c:\users\pc\desktop\workspace\danielamoreno\funciones.h
+
+1561568857 c:\users\pc\desktop\workspace\danielamoreno\controller.h
+
+1561525348 source:c:\users\pc\desktop\workspace\danielamoreno\entregas.c
+	"Entregas.h"
+	"validaciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1561525151 c:\users\pc\desktop\workspace\danielamoreno\validaciones.h
+
+1561510255 source:c:\users\pc\desktop\workspace\danielamoreno\funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1561564582 source:c:\users\pc\desktop\workspace\danielamoreno\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561531862 source:c:\users\pc\desktop\workspace\danielamoreno\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"Entregas.h"
+	"funciones.h"
+
+1561510255 source:c:\users\pc\desktop\workspace\danielamoreno\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Entregas.h"
+
+1561525151 source:c:\users\pc\desktop\workspace\danielamoreno\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
