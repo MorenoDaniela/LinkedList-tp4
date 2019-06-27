@@ -555,8 +555,8 @@ int venta_setPrecioString(Venta* this, char* precio)//
     int retorno = -1;
     if(this != NULL && precio!=NULL)
     {
-        printf ("Precio: %s \n",precio);
-        if (isValidFloatNumber(precio))
+        //printf ("Precio: %s \n",precio);//Hasta aca viene todo bien
+        if (isValidFloatNumber(precio))//no pasa esta validacion si esta devuelve 1 deberia entrar, pero esta devolviendo 0
         {
             //printf ("Precio: %s",precio);
             retorno = venta_setPrecio(this,atof(precio));

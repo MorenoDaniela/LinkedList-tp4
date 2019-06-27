@@ -618,7 +618,7 @@ int controller_saveAsTextVentas(char* path , LinkedList* pArrayListVenta)
                     !venta_getCantidad(pVenta,&cantidad) &&
                     !venta_getPrecio(pVenta,&precio))
                     {
-                        fprintf(pFile,"%d,%d,%d,%d, %.2f\n",id,idCliente,codigo,cantidad,precio);
+                        fprintf(pFile,"%d,%d,%d,%d,%.2f\n",id,idCliente,codigo,cantidad,precio);
                     }else
                         venta_delete(pVenta);
             }
@@ -660,6 +660,57 @@ int controller_findIdClientEnVentas(LinkedList* pArrayListVenta, int* idBuscada)
                 }else
                     retorno=-2;
             }
+        }
+    }
+    return retorno;
+}
+
+int controller_ventasPorProductoMil(LinkedList* pArrayListVenta)
+{
+    int retorno=0;
+    int i;
+    Venta* pAux;
+
+    if (pArrayListVenta!=NULL)
+    {
+        pAux=ll_get(pArrayListVenta,i);
+        if (pAux->codigoProducto==1000)
+        {
+            retorno=1;
+        }
+    }
+    return retorno;
+}
+
+int controller_ventasPorProductoMilUno(LinkedList* pArrayListVenta)
+{
+    int retorno=0;
+    int i;
+    Venta* pAux;
+
+    if (pArrayListVenta!=NULL)
+    {
+        pAux=ll_get(pArrayListVenta,i);
+        if (pAux->codigoProducto==1001)
+        {
+            retorno=1;
+        }
+    }
+    return retorno;
+}
+
+int controller_ventasPorProductoMilDos(LinkedList* pArrayListVenta)
+{
+    int retorno=0;
+    int i;
+    Venta* pAux;
+
+    if (pArrayListVenta!=NULL)
+    {
+        pAux=ll_get(pArrayListVenta,i);
+        if (pAux->codigoProducto==1002)
+        {
+            retorno=1;
         }
     }
     return retorno;

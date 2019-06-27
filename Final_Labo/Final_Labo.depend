@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1561571303 source:c:\users\pc\desktop\workspace\final_labo\client.c
+1561573254 source:c:\users\pc\desktop\workspace\final_labo\client.c
 	"Client.h"
 	"validaciones.h"
 	<string.h>
@@ -24,7 +24,7 @@
 
 1533133022 c:\users\pc\desktop\workspace\final_labo\linkedlist.h
 
-1561447411 source:c:\users\pc\desktop\workspace\final_labo\main.c
+1561571846 source:c:\users\pc\desktop\workspace\final_labo\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -42,13 +42,13 @@
 	"LinkedList.h"
 	"Client.h"
 
-1561569731 source:c:\users\pc\desktop\workspace\final_labo\validaciones.c
+1561571721 source:c:\users\pc\desktop\workspace\final_labo\validaciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"validaciones.h"
 
-1561570024 source:c:\users\pc\desktop\workspace\final_labo\controller.c
+1561573420 source:c:\users\pc\desktop\workspace\final_labo\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"

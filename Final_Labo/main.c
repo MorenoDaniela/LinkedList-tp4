@@ -47,7 +47,7 @@ int main()
                 controller_saveAsTextVentas("ventas",listaVentas);
                 break;
             case 6:
-                //controller_removeVenta(listaVentas);
+                controller_removeVenta(listaVentas);
                 break;
             case 7:
                 controller_ListVenta(listaVentas);
